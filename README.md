@@ -76,15 +76,3 @@ pnpm dev
 - **Delete**: Use the trash icon to remove columns or tasks
 - **Mobile Support**: Works on touch devices with optimized drag and drop
 
-## Project Structure
-
-src/
-├── app/
-│ ├── layout.tsx # Root layout with fonts and toast setup
-│ └── page.tsx # Main page component
-├── components/
-│ ├── add-column.tsx # Add column form component
-│ ├── add-task.tsx # Add task form component
-│ ├── column.tsx # Column component
-│ ├── kanban-board.tsx # Main board logic
-│ └── task-item.tsx # Task item component
